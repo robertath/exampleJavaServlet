@@ -30,8 +30,8 @@
 			
 			<li>
 				${empresa.nome } - <fmt:formatDate value="${empresa.dataAbertura }" pattern="dd/MM/yyyy"/> 
-				<a href="/exampleJavaServlet/entrada?acao=MostraEmpresa&id=${empresa.id }">edita</a>
-				<a href="/exampleJavaServlet/entrada?acao=RemoveEmpresa&id=${empresa.id }">remove</a>
+				<a href="/exampleJavaServlet/entrada?acao=MostraEmpresa&id=${empresa.id}">edita</a>
+				<a href="/exampleJavaServlet/entrada?acao=RemoveEmpresa&id=${empresa.id}">remove</a>
 			</li>
 		</c:forEach>
 	</ul>
